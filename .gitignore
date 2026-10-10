@@ -1,0 +1,34 @@
+# Local credentials and personalised n8n workflow
+.env
+.env.*
+!.env.example
+LOCAL_LOGIN_PRIVATE*
+Ready_To_Import_V2*.json
+
+# Live invoice data, reports, mail requests and backup copies
+input/
+input_*/
+archive/
+archive_*/
+output/
+output_*/
+backups/
+backups_*/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.bak
+*.log
+
+# Python and editor working files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+desktop.ini
